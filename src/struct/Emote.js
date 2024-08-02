@@ -7,9 +7,9 @@ class Emote {
      * @param {data} data - The raw emote data.
      */
     constructor(channel, id, data) {
-        if (new.target.name === Emote.name) {
-            throw new Error('Base Emote class cannot be used');
-        }
+        //if (new.target.name === Emote.name) {
+        //    throw new Error('Base Emote class cannot be used');
+       // }
 
         /**
          * The emote fetcher.
